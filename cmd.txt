@@ -1,0 +1,3 @@
+gcc main.cpp -o main ============> gcc filename.cpp -o filename
+
+main ========>(exe file)

@@ -1,11 +1,25 @@
 #include <iostream>
+#include <cmath>
 #include <vector>
-#include <string>
 
 namespace st = std;
 
-int main() {
+auto const nrOfRows = 96;
+auto const nrOfCols = 3 * nrOfRows;
+
+auto const pixelChars = " MNIL+-. "; //
+auto const black = sizeof(pixelChars) / sizeof(char) - 1;
 
 
-    return 0;
+
+
+
+int main()
+{
+    // std::cout << "Hello World!";
+    for (auto rowIndex = 0; rowIndex < nrOfRows; rowIndex++){
+        
+    }
+
+        return 0;
 }
