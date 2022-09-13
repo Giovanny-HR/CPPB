@@ -1,0 +1,3 @@
+C:/Users/Senshi/OneDrive - Hogeschool Rotterdam/1021941/Schooljr/2de-Jaar/OP 1/TINPRO045B/Hw1/cmake-build-debug/CMakeFiles/Hw1.dir
+C:/Users/Senshi/OneDrive - Hogeschool Rotterdam/1021941/Schooljr/2de-Jaar/OP 1/TINPRO045B/Hw1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Senshi/OneDrive - Hogeschool Rotterdam/1021941/Schooljr/2de-Jaar/OP 1/TINPRO045B/Hw1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
