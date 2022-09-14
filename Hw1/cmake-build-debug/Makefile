@@ -128,29 +128,29 @@ Hw1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hw1.dir\build.make CMakeFiles/Hw1.dir/build
 .PHONY : Hw1/fast
 
-test2.obj: test2.cpp.obj
-.PHONY : test2.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-test2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hw1.dir\build.make CMakeFiles/Hw1.dir/test2.cpp.obj
-.PHONY : test2.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hw1.dir\build.make CMakeFiles/Hw1.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-test2.i: test2.cpp.i
-.PHONY : test2.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hw1.dir\build.make CMakeFiles/Hw1.dir/test2.cpp.i
-.PHONY : test2.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hw1.dir\build.make CMakeFiles/Hw1.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-test2.s: test2.cpp.s
-.PHONY : test2.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hw1.dir\build.make CMakeFiles/Hw1.dir/test2.cpp.s
-.PHONY : test2.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hw1.dir\build.make CMakeFiles/Hw1.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Hw1
-	@echo ... test2.obj
-	@echo ... test2.i
-	@echo ... test2.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

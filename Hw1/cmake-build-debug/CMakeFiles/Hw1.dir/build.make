@@ -68,28 +68,28 @@ include CMakeFiles/Hw1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hw1.dir/flags.make
 
-CMakeFiles/Hw1.dir/test2.cpp.obj: CMakeFiles/Hw1.dir/flags.make
-CMakeFiles/Hw1.dir/test2.cpp.obj: ../test2.cpp
-CMakeFiles/Hw1.dir/test2.cpp.obj: CMakeFiles/Hw1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hw1.dir/test2.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hw1.dir/test2.cpp.obj -MF CMakeFiles\Hw1.dir\test2.cpp.obj.d -o CMakeFiles\Hw1.dir\test2.cpp.obj -c "C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\test2.cpp"
+CMakeFiles/Hw1.dir/main.cpp.obj: CMakeFiles/Hw1.dir/flags.make
+CMakeFiles/Hw1.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/Hw1.dir/main.cpp.obj: CMakeFiles/Hw1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hw1.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Hw1.dir/main.cpp.obj -MF CMakeFiles\Hw1.dir\main.cpp.obj.d -o CMakeFiles\Hw1.dir\main.cpp.obj -c "C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\main.cpp"
 
-CMakeFiles/Hw1.dir/test2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hw1.dir/test2.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\test2.cpp" > CMakeFiles\Hw1.dir\test2.cpp.i
+CMakeFiles/Hw1.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hw1.dir/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\main.cpp" > CMakeFiles\Hw1.dir\main.cpp.i
 
-CMakeFiles/Hw1.dir/test2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hw1.dir/test2.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\test2.cpp" -o CMakeFiles\Hw1.dir\test2.cpp.s
+CMakeFiles/Hw1.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hw1.dir/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\HR\2de jaar\OP1\Programmeren 5b\CPPB\Hw1\main.cpp" -o CMakeFiles\Hw1.dir\main.cpp.s
 
 # Object files for target Hw1
 Hw1_OBJECTS = \
-"CMakeFiles/Hw1.dir/test2.cpp.obj"
+"CMakeFiles/Hw1.dir/main.cpp.obj"
 
 # External object files for target Hw1
 Hw1_EXTERNAL_OBJECTS =
 
-Hw1.exe: CMakeFiles/Hw1.dir/test2.cpp.obj
+Hw1.exe: CMakeFiles/Hw1.dir/main.cpp.obj
 Hw1.exe: CMakeFiles/Hw1.dir/build.make
 Hw1.exe: CMakeFiles/Hw1.dir/linklibs.rsp
 Hw1.exe: CMakeFiles/Hw1.dir/objects1.rsp

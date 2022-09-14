@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/HR/2de jaar/OP1/Programmeren 5b/CPPB/Hw1/test2.cpp">
+		<Unit filename="C:/HR/2de jaar/OP1/Programmeren 5b/CPPB/Hw1/main.cpp">
 			<Option target="Hw1"/>
 		</Unit>
 		<Unit filename="C:/HR/2de jaar/OP1/Programmeren 5b/CPPB/Hw1/CMakeLists.txt">
