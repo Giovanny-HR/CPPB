@@ -1,21 +1,24 @@
 #include <iostream>
 #include <cmath>
-#include <vector>
+#include <vector> //(List or Array list)
 
 namespace st = std;
 
-typedef st::vector<float> VF; // Afkorting
-typedef st::vector<VF> VVF;
+//Think of a vector as a list that has one dimension. It is a row of data.
+//A two domension array is a vector of vectors that are all of the same length.
+
+typedef st::vector<float> VF; // A vector of floats
+typedef st::vector<VF> VVF; // A vector of vectors of floats
 
 auto const nrOfRows = 63;//96 , 63
-auto const nrOfCols = 3 * nrOfRows;
+auto const nrOfCols = 3 * nrOfRows; 
 auto const aspectRatio = 0.65;
 
 auto const pixelChars = "MNIL+-. "; // "MNIL+-. "
 auto const black = sizeof(pixelChars) / sizeof(char) - 1;
 
-auto const aLot = 1000;
-auto const stride = 00.105; // Stap grotte  ==>00.105
+auto const aLot = 100;//1000
+auto const stride = 0.105; // Stap grotte  ==>00.105
 
 auto const minRadius = 0.2;
 auto const maxRadius = 0.4;

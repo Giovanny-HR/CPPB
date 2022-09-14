@@ -4,42 +4,42 @@
 
 namespace st = std;
 
-typedef st::vector<float> VF; // Afkorting
-typedef st::vector<VF> VVF;
+typedef st::vector<float> VF; // A vector of floats
+typedef st::vector<VF> VVF;   // A vector of vectors of floats
 
 auto const nrOfRows = 63;
 auto const nrOfCols = 3 * nrOfRows;
 auto const aspectRatio = 0.65;
 
-auto const pixelChars = " MNIL+-. "; 
+auto const pixelChars = "NLI +-. "; // "MNIL+-. " == "N IL+-. "
 auto const black = sizeof(pixelChars) / sizeof(char) - 1;
 
-auto const aLot = 100;    
-auto const gap = 0.105; 
+auto const aLot = 100;
+auto const gap = 0.105;
 
 auto const minRadius = 0.2;
 auto const maxRadius = 0.4;
 
 auto image = VVF(nrOfRows, VF(nrOfCols, black));
 
-int main()
-{
-    // Build chessboard pattern
+int main(){
+    
+    //Chess Board
     for (auto rowIndex = 0; rowIndex < nrOfRows; rowIndex++)
     {
         auto y = (nrOfRows / 2. - rowIndex) / nrOfRows;
-        int yRaw = (aLot + y) / gap;                        
-        for (auto colIndex = 0; colIndex < nrOfCols; colIndex++) 
+        int yCrude = (aLot + y) / gap;//Bepaal dat het wit of zwart moet zijn.
+        for (auto colIndex = 0; colIndex < nrOfCols; colIndex++)
         {
             auto x = (colIndex - nrOfCols / 2) / (aspectRatio * nrOfCols);
-            int xRaw = (aLot + x) / gap;                                                               
-            auto brightness = (((xRaw % 2) && !(yRaw % 2)) || (!(xRaw % 2) && (yRaw % 2)) ? 2 : 1); 
+            int xCrude = (aLot + x) / gap;
+            auto brightness = (((xCrude % 2) && !(yCrude % 2)) || (!(xCrude % 2) && (yCrude % 2)) ? 2 : 1); 
             image[rowIndex][colIndex] /= brightness;
         }
+        
     }
 
-    // Mix in circle pattern
-    for (auto rowIndex = 0; rowIndex < nrOfRows; rowIndex++) 
+    for (auto rowIndex = 0; rowIndex < nrOfRows; rowIndex++)//++
     {
         auto y = (nrOfRows / 2. - rowIndex) / nrOfRows;
         for (auto colIndex = 0; colIndex < nrOfCols; colIndex++)
@@ -51,7 +51,7 @@ int main()
         }
     }
 
-    // Show on screen
+    //Show on screen
     st::cout << '\n';
     for (auto rowIndex = 0; rowIndex < nrOfRows; rowIndex++)
     {
@@ -59,6 +59,7 @@ int main()
         for (auto colIndex = 0; colIndex < nrOfCols; colIndex++)
         {
             st::cout << pixelChars[int(image[rowIndex][colIndex])];
+            // st:: cout << "L";
         }
         st::cout << '\n';
     }
@@ -66,4 +67,5 @@ int main()
 
     return 0;
 
+    return 0;
 }
