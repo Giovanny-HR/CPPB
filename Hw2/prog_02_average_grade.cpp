@@ -1,5 +1,5 @@
 //
-// Created by Senshi on 13-Sep-22.
+// Created  on 13-Sep-22.
 //
 
 #include <iostream>
