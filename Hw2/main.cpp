@@ -129,8 +129,8 @@ int main(){
     show("Minus-Vector: ", minVector);
     show();
     show("Add-Vector: ", addVector);
-    show()
-            ;show("Sub-Vector: ", subVector);
+    show();
+    show("Sub-Vector: ", subVector);
     show();
     show("Mul-Vector: ", mulVector);
     show();
