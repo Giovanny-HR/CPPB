@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/102194
 
 build cmake_object_order_depends_target_Hw2: phony || CMakeFiles/Hw2.dir
 
-build CMakeFiles/Hw2.dir/test1.cpp.obj: CXX_COMPILER__Hw2_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw2/test1.cpp || cmake_object_order_depends_target_Hw2
-  DEP_FILE = CMakeFiles\Hw2.dir\test1.cpp.obj.d
+build CMakeFiles/Hw2.dir/main.cpp.obj: CXX_COMPILER__Hw2_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw2/main.cpp || cmake_object_order_depends_target_Hw2
+  DEP_FILE = CMakeFiles\Hw2.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\Hw2.dir
   OBJECT_FILE_DIR = CMakeFiles\Hw2.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Hw2.dir/test1.cpp.obj: CXX_COMPILER__Hw2_Debug C$:/Users/Senshi
 #############################################
 # Link the executable Hw2.exe
 
-build Hw2.exe: CXX_EXECUTABLE_LINKER__Hw2_Debug CMakeFiles/Hw2.dir/test1.cpp.obj
+build Hw2.exe: CXX_EXECUTABLE_LINKER__Hw2_Debug CMakeFiles/Hw2.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Hw2.dir
