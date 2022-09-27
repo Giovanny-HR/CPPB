@@ -11,4 +11,8 @@ add_executable(Hw3
         console_graphic_application.cpp
         console_graphics.cpp
         console_graphics.hpp
-        test1.cpp)
+        test1.cpp
+        test_main.cpp
+        test.h
+        vec3d.h
+        test2.cpp)

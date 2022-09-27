@@ -1,6 +1,4 @@
-//
-// Created by Senshi on 13-Sep-22.
-//
+
 
 #include "console_graphics.hpp"
 namespace cg = consoleGraphics;
