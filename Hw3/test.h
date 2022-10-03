@@ -33,10 +33,19 @@ namespace  testNameSpace{
         }
     };
 
-
-
 }
+class MyClass{ // The class
+public:     // Access specifier
+    void method(){// Method/Function defined inside the class
+        st::cout<<"Method Printed!";
+    }
+};
 
+int main(){
+    MyClass myObj; //Creat method
+    myObj.method();//Call Method
+    return 0;
+}
 
 
 

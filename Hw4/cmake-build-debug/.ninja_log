@@ -1,8 +1,7 @@
 # ninja log v5
 17	415	6854872449884452	CMakeFiles/Hw4.dir/prog_01_console_graphics_inheritance/console_graphics_inheritance_application.cpp.obj	dcb937789bbadc8c
 23	419	6854872449939642	CMakeFiles/Hw4.dir/prog_02_console_graphics_polymorphism/console_graphics_polymorphism_application.cpp.obj	29c193313d3b1cb9
-37	567	6854872451404337	CMakeFiles/Hw4.dir/main.cpp.obj	511ecd186253dc0f
-11	851	6854872454232141	CMakeFiles/Hw4.dir/prog_02_console_graphics_polymorphism/console_graphics_polymorphism.cpp.obj	5f9b01e550c93df7
-30	859	6854872454302146	CMakeFiles/Hw4.dir/prog_02_console_graphics_polymorphism/console_graphics_polymorphism_no_debug.cpp.obj	90c58e02e3dd82d4
-1	888	6854872454614394	CMakeFiles/Hw4.dir/prog_01_console_graphics_inheritance/console_graphics_inheritance.cpp.obj	8af497a72c7d235a
 4	260	6854873086508474	CMakeFiles/Hw4.dir/main.cpp.obj	511ecd186253dc0f
+30	859	6854872454302146	CMakeFiles/Hw4.dir/prog_02_console_graphics_polymorphism/console_graphics_polymorphism_no_debug.cpp.obj	90c58e02e3dd82d4
+11	851	6854872454232141	CMakeFiles/Hw4.dir/prog_02_console_graphics_polymorphism/console_graphics_polymorphism.cpp.obj	5f9b01e550c93df7
+1	888	6854872454614394	CMakeFiles/Hw4.dir/prog_01_console_graphics_inheritance/console_graphics_inheritance.cpp.obj	8af497a72c7d235a

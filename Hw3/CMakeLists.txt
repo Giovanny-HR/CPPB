@@ -7,12 +7,12 @@ include_directories(.)
 
 add_executable(Hw3
         main.cpp
-        circles_and_squqares.cpp
-        console_graphic_application.cpp
-        console_graphics.cpp
-        console_graphics.hpp
+        Console/circles_and_squqares.cpp
+        Console/console_graphic_application.cpp
+        Console/console_graphics.cpp
+        Console/console_graphics.hpp
         test1.cpp
         test_main.cpp
         test.h
-        vec3d.h
+        prog/vc3D.h
         test2.cpp)

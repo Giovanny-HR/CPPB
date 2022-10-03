@@ -7,7 +7,7 @@
 
 
 #include <iostream>
-#include "vec3d.h"
+#include "prog/vc3D.h"
 
 namespace st = std;
 

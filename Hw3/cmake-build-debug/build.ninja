@@ -56,26 +56,26 @@ build CMakeFiles/Hw3.dir/main.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/
   OBJECT_DIR = CMakeFiles\Hw3.dir
   OBJECT_FILE_DIR = CMakeFiles\Hw3.dir
 
-build CMakeFiles/Hw3.dir/circles_and_squqares.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw3/circles_and_squqares.cpp || cmake_object_order_depends_target_Hw3
-  DEP_FILE = CMakeFiles\Hw3.dir\circles_and_squqares.cpp.obj.d
+build CMakeFiles/Hw3.dir/Console/circles_and_squqares.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw3/Console/circles_and_squqares.cpp || cmake_object_order_depends_target_Hw3
+  DEP_FILE = CMakeFiles\Hw3.dir\Console\circles_and_squqares.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -I"C:/Users/Senshi/OneDrive - Hogeschool Rotterdam/1021941/Schooljr/2de-Jaar/OP 1/TINPRO045B/Hw3/."
   OBJECT_DIR = CMakeFiles\Hw3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Hw3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hw3.dir\Console
 
-build CMakeFiles/Hw3.dir/console_graphic_application.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw3/console_graphic_application.cpp || cmake_object_order_depends_target_Hw3
-  DEP_FILE = CMakeFiles\Hw3.dir\console_graphic_application.cpp.obj.d
+build CMakeFiles/Hw3.dir/Console/console_graphic_application.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw3/Console/console_graphic_application.cpp || cmake_object_order_depends_target_Hw3
+  DEP_FILE = CMakeFiles\Hw3.dir\Console\console_graphic_application.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -I"C:/Users/Senshi/OneDrive - Hogeschool Rotterdam/1021941/Schooljr/2de-Jaar/OP 1/TINPRO045B/Hw3/."
   OBJECT_DIR = CMakeFiles\Hw3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Hw3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hw3.dir\Console
 
-build CMakeFiles/Hw3.dir/console_graphics.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw3/console_graphics.cpp || cmake_object_order_depends_target_Hw3
-  DEP_FILE = CMakeFiles\Hw3.dir\console_graphics.cpp.obj.d
+build CMakeFiles/Hw3.dir/Console/console_graphics.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw3/Console/console_graphics.cpp || cmake_object_order_depends_target_Hw3
+  DEP_FILE = CMakeFiles\Hw3.dir\Console\console_graphics.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -I"C:/Users/Senshi/OneDrive - Hogeschool Rotterdam/1021941/Schooljr/2de-Jaar/OP 1/TINPRO045B/Hw3/."
   OBJECT_DIR = CMakeFiles\Hw3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Hw3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hw3.dir\Console
 
 build CMakeFiles/Hw3.dir/test1.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi/OneDrive$ -$ Hogeschool$ Rotterdam/1021941/Schooljr/2de-Jaar/OP$ 1/TINPRO045B/Hw3/test1.cpp || cmake_object_order_depends_target_Hw3
   DEP_FILE = CMakeFiles\Hw3.dir\test1.cpp.obj.d
@@ -106,7 +106,7 @@ build CMakeFiles/Hw3.dir/test2.cpp.obj: CXX_COMPILER__Hw3_Debug C$:/Users/Senshi
 #############################################
 # Link the executable Hw3.exe
 
-build Hw3.exe: CXX_EXECUTABLE_LINKER__Hw3_Debug CMakeFiles/Hw3.dir/main.cpp.obj CMakeFiles/Hw3.dir/circles_and_squqares.cpp.obj CMakeFiles/Hw3.dir/console_graphic_application.cpp.obj CMakeFiles/Hw3.dir/console_graphics.cpp.obj CMakeFiles/Hw3.dir/test1.cpp.obj CMakeFiles/Hw3.dir/test_main.cpp.obj CMakeFiles/Hw3.dir/test2.cpp.obj
+build Hw3.exe: CXX_EXECUTABLE_LINKER__Hw3_Debug CMakeFiles/Hw3.dir/main.cpp.obj CMakeFiles/Hw3.dir/Console/circles_and_squqares.cpp.obj CMakeFiles/Hw3.dir/Console/console_graphic_application.cpp.obj CMakeFiles/Hw3.dir/Console/console_graphics.cpp.obj CMakeFiles/Hw3.dir/test1.cpp.obj CMakeFiles/Hw3.dir/test_main.cpp.obj CMakeFiles/Hw3.dir/test2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Hw3.dir
